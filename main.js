@@ -30,7 +30,7 @@ $.getJSON("https://newsapi.org/v2/top-headlines?country=us&apiKey=f13a081f035740
               <p>${element.description}</p>
             </div>
           </div>`
-          const cobutton=`<li data-target="#carouselExampleCaptions" data-slide-to="${i}"></li>`;
+          const cobutton=`<li data-target="#carouselExampleDark" data-slide-to="${i}"></li>`;
             i=i+1;
         document.getElementById("carousel-inner").innerHTML+=corousel;
         document.getElementById("indi").innerHTML+=cobutton;
