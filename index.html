@@ -86,24 +86,22 @@
                         <div class="col-lg-12">
                             <div class="row">
                                 <div class=" col-lg-3 col-md-3 col-sm-12 p-0 yo">
-                                    <input type="text" class="form-control search-slt" placeholder="Enter Pickup City">
+                                    <input type="text" class="form-control search-slt" id="query" placeholder="Query">
                                 </div>
                                 <div class=" col-lg-3 col-md-3 col-sm-12 p-0 yo">
-                                    <input type="text" class="form-control search-slt" placeholder="Enter Drop City">
+                                    <input type="date" class="form-control search-slt" id="date" placeholder="Date">
                                 </div>
                                 <div class=" col-lg-3 col-md-3 col-sm-12 p-0 yo">
                                     <select class="form-control search-slt" id="exampleFormControlSelect1">
-                                        <option>Select Vehicle</option>
-                                        <option>Example one</option>
-                                        <option>Example one</option>
-                                        <option>Example one</option>
-                                        <option>Example one</option>
-                                        <option>Example one</option>
-                                        <option>Example one</option>
+                                        <option>Sort by</option>
+                                        <option value="relevancy">relevancy</option>
+                                        <option value="popularity">popularity</option>
+                                        <option value="publishedAt">publishedAt</option>
+                                        
                                     </select>
                                 </div>
                                 <div class=" col-lg-3 col-md-3 col-sm-12 p-0 yo">
-                                    <button type="button"  class="btn btn-danger wrn-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                    <button type="button" onclick="yo()" class="btn btn-danger wrn-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
                                 </div>
                             </div>
                         </div>
