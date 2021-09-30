@@ -1,0 +1,41 @@
+.contactfeedback {
+  margin-top: 10%;
+  padding: 5%;
+}
+#icon {
+  height: 70px;
+}
+.stick {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+.navigation {
+  margin: 0px 50px;
+  padding: 0px;
+}
+.nav-link {
+  font-size: 18px;
+}
+.feedback {
+  width: 45%;
+  padding: 2%;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.contact {
+  margin-left: 5%;
+
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 2%;
+  padding: 2%;
+}
+label {
+  padding: 2px;
+}
+.formheader {
+  text-align: center;
+  font-weight: 700;
+  font-family: monospace;
+  font-size: 40px;
+}
